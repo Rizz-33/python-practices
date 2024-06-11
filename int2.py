@@ -3,7 +3,7 @@ myList = []
 listLenght = int(input("Enter the length of the list "))
 
 def postNumbers(listLenght):
-    print("Enter ", listLenght, " number of elements")
+    print("Enter ", listLenght, " number of elements...")
     for i in range(0, listLenght):
         element = float(input())
         myList.append(element)
